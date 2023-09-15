@@ -1,0 +1,24 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning",
+      "Microsoft.EntityFrameworkCore": "Warning",
+      "Microsoft.EntityFrameworkCore.Database.Command": "Warning"
+    },
+    "JwtConfig": {
+      "Expires": "60",
+      "ImpersonationExpires": "10",
+      "Secret": "JR2tqVldxjuJiNxtNgZsxi1ggOY4UwV4bLvzcsan",
+      "Issuer": "https//userMgt.org/swagger/",
+      "Audience": "https//userMgt.org/"
+    },
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "YourAppNamespace": "Debug"
+      }
+    }
+  }
+}
